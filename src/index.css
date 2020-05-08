@@ -1,0 +1,34 @@
+body {
+  font-family: "Fira Code", BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  padding: 0;
+  margin : 0;
+  box-sizing: border-box;
+}
+ul , li {
+  list-style: none;
+}
+
+img {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}

@@ -1,0 +1,51 @@
+.NameList {
+    text-align:start;
+    height: 9rem;
+    display: flex;
+    height: 50rem;
+    flex-direction: column;
+}
+.NameList ul {
+    height: 50rem;
+    overflow: auto;
+}
+
+.NameList li {
+    height: 9rem;
+    display : flex;
+    align-items: center;    
+    width: 100%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: all .3s ease;
+    border-radius: 2rem;
+    font-size: 1.6rem;
+}
+
+.NameList li:not(:last-child) {
+    margin-bottom : 2rem
+}
+
+.NameList li:hover {
+    background-color: #ccc;
+}
+.NameList li:active {
+    /* background-color: #ccc; */
+    transform : translateY(-.5rem)
+}
+
+.NameList li img.IdolPic {
+    height: 70%;
+    border-radius: 1rem;
+    margin: 0 0 0 2rem
+}
+.NameList li .IdolId {
+    padding:0 0 0 2rem;
+    width: 8rem;
+    margin :0 2rem 0 0 !important;
+}
+
+.NameList li .IdolName {
+    width: 12rem;
+    margin :0 6rem 0 0;
+}
